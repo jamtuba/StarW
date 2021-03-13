@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StarW.API</name>
+    </assembly>
+    <members>
+        <member name="M:StarW.API.Controllers.StarWController.GetAllPeopleAsync">
+            <summary>
+            Gets all the people from Swapi
+            </summary>
+            <returns>List of people</returns>
+        </member>
+        <member name="M:StarW.API.Controllers.StarWController.GetPerson(System.Int32)">
+            <summary>
+            Gets a person from Swapi
+            </summary>
+            <param name="id"></param>
+            <returns>Person</returns>
+        </member>
+        <member name="P:StarW.API.Models.Person.Id">
+            <summary>
+            The Id of the person
+            </summary>
+            <example>11</example>
+        </member>
+        <member name="P:StarW.API.Models.Person.Name">
+            <summary>
+            The name of the person
+            </summary>
+            <example>Luke Skywalker</example>
+        </member>
+    </members>
+</doc>
